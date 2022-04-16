@@ -63,7 +63,61 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 ![ros_class_report](https://user-images.githubusercontent.com/94148420/163693201-a757479c-6a67-43cf-9200-fc80ab211ced.PNG)
 
+#### SMOTE Model
+* Balanced Accuracy Score = 66.2%
 
+![SMOTE_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693249-7e40fc64-7f1d-447c-b8a8-4338970f6079.PNG)
+
+* Precision Score = 1%
+* Recall Score = 63%
+
+![SMOTE_class_report](https://user-images.githubusercontent.com/94148420/163693268-4eb464d0-1b1a-4d5a-aa65-fb6ad4f5f519.PNG)
+
+
+### Undersampling Review
+#### ClusterCentoids Model
+* Balanced Accuracy Score = 54.4%
+
+![ClusCent_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693330-da6af9be-7663-44e5-9aa4-758f72a66496.PNG)
+
+* Precision Score = 1%
+* Recall Score = 69%
+
+![ClusCent_class_report](https://user-images.githubusercontent.com/94148420/163693360-094f91cc-d298-4f30-a1fa-97111896b64a.PNG)
+
+
+### Combination (Over and Under) Sampling Review
+#### SMOTEENN Model
+* Balanced Accuracy Score = 68.8%
+
+![EENN_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693424-9d997200-47fd-4d78-a315-ccf56ebe4a74.PNG)
+
+* Precision Score = 1%
+* Recall Score = 80%
+
+![EENN_class_report](https://user-images.githubusercontent.com/94148420/163693438-6d4fb79b-04a6-420c-9d6e-2e27889658b2.PNG)
+
+
+### Ensemble Classifiers Review
+#### BalancedRandomForestClassifier Model
+* Balanced Accuracy Score = 78.8%
+
+![BRFC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693510-be9d9ded-3d9f-4117-83f9-c0893e5a0bee.PNG)
+
+* Precision Score = 3%
+* Recall Score = 70%
+
+![BRFC_class_report](https://user-images.githubusercontent.com/94148420/163693550-9ed15329-ca32-4b75-8949-f33579eb4b45.PNG)
+
+#### EasyEnsembleClassifier Model
+* Balanced Accuracy Score = 93.2%
+
+![EEC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693601-e8a05ba4-0142-4a16-bfe0-6832662e4a7a.PNG)
+
+* Precision Score = 9%
+* Recall Score = 92%
+
+![EEC_class_report](https://user-images.githubusercontent.com/94148420/163693620-64d21083-c810-4bd2-8826-f1424b179a61.PNG)
 
 
 
