@@ -11,14 +11,10 @@
 * credit_risk_ensemble.ipynb
 
 #### Data:
-
+* 
 
 #### Software/Data Tools:
-Google Colab
-pgAdmin 4 v6.4
-PostreSQL
-PySpark
-AWS RDS
+
 
 
 ## Results
