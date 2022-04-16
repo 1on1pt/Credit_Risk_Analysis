@@ -18,7 +18,7 @@ And undersampling the data using this algorithm:
 Then next, a combinatorial approach of over- and undersampling is utilized using this algorithm:
 * SMOTEENN
 
-Next, there is a comparisson of two new machine learning models that reduce bias inpredicting credit risk:
+Next, there is a comparisson of two new machine learning models that reduce bias in predicting credit risk:
 * BalancedRandomForestClassifier
 * EasyEnsembleClassifier
 
