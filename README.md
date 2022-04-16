@@ -48,7 +48,7 @@ Finally, an evaluation of the performance of these models with a recommendation 
 
 ## Results
 The performance of a machine learning algorithm can be assessed by the model's:
-* Balanced Accuracy Score:  Compares actual outcome (y_test) with the predicted outcome (y_pred) for a percentage of predictions that are correct.
+* <ins>Balanced Accuracy Score</ins>:  Compares actual outcome (y_test) with the predicted outcome (y_pred) for a percentage of predictions that are correct.
 * Precision Score:  A measure of how reliable a positive classification is and can be determined by dividing the number of true positives (TP) by the number of all positives (true positives (TP) + false positives (FP)).  This formula can be used:  Precision = TP / TP + FP.
 * Sensitivity or Recall Score
 
