@@ -2,6 +2,7 @@
 Using machine learning algorithms from scikit-learn and imbalanced-learn to identify credit risk from a LendingClub dataset.
 
 ## Overview of the Analysis
+![LendingClub_logo](https://user-images.githubusercontent.com/94148420/163691282-bccf8b63-cef0-4849-b761-13c313174085.jpg)
 
 
 
