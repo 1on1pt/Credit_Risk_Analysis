@@ -1,5 +1,5 @@
 # Credit_Risk_Analysis
-
+Using machine learning algorithms from scikit-learn and imbalanced-learn to identify credit risk from a LendingClub dataset.
 
 ## Overview of the Analysis
 
