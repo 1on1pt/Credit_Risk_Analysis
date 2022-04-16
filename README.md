@@ -4,6 +4,25 @@ Using machine learning algorithms from scikit-learn and imbalanced-learn to iden
 ## Overview of the Analysis
 ![LendingClub_logo](https://user-images.githubusercontent.com/94148420/163691282-bccf8b63-cef0-4849-b761-13c313174085.jpg)
 
+Jill commends you for all your hard work. Piece by piece, you’ve been building up your skills in data preparation, statistical reasoning, and machine learning. You are now ready to apply machine learning to solve a real-world challenge: **credit card risk**.
+
+Credit risk is an inherently *unbalanced classification problem*, as good loans easily outnumber risky loans. Thus there is a need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use **imbalanced-learn** and **scikit-learn libraries** to build and evaluate models using resampling.
+
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, oversampling the data was performed using the following algorithms:
+* RandomOverSampler
+* SMOTE
+
+And undersampling the data using this algorithm:
+* ClusterCentroids algorithm
+
+Then next, a combinatorial approach of over- and undersampling is utilized using this algorithm:
+* SMOTEENN
+
+Next, there is a comparisson of two new machine learning models that reduce bias inpredicting credit risk:
+* BalancedRandomForestClassifier
+* EasyEnsembleClassifier
+
+Finally, an evaluation of the performance of these models with a recommendation on whether they should be used to predict credit risk.
 
 
 ### Resources
