@@ -52,7 +52,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 * <ins>Precision Score</ins>:  A measure of how reliable a positive classification is and can be determined by dividing the number of true positives (TP) by the number of all positives (true positives (TP) + false positives (FP)).  This formula can be used:  Precision = TP / TP + FP.
 * <ins>Sensitivity or Recall Score</ins>:  Sensitivity or recall is a measure of the proportion of actual positive cases which got predicted as *positive (or true positive)*.  This formula can be used for sensitivity/recall:  Sensitivity = TP / TP + FN.
 
-The following is a review of the six machine learning algorithm models that were used to predict credit risk.
+The following is a performance review of the six machine learning algorithm models that were used to predict credit risk.
 
 ### Oversampling Review
 #### <ins>RandomOverSampler Model</ins>
