@@ -52,8 +52,10 @@ The **performance** of a machine learning algorithm can be assessed by the model
 * <ins>Precision Score</ins>:  A measure of how reliable a positive classification is and can be determined by dividing the number of true positives (TP) by the number of all positives (true positives (TP) + false positives (FP)).  This formula can be used:  Precision = TP / TP + FP.
 * <ins>Sensitivity or Recall Score</ins>:  Sensitivity or recall is a measure of the proportion of actual positive cases which got predicted as *positive (or true positive)*.  This formula can be used for sensitivity/recall:  Sensitivity = TP / TP + FN.
 
+The following is a review of the six machine learning algorithm models that were used to predict credit risk.
+
 ### Oversampling Review
-#### RandomOverSampler Model
+#### <ins>RandomOverSampler Model</ins>
 * Balanced Accuracy Score = 65.7%
 
 ![ros_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693170-e76219e9-0e06-4d9e-8d2b-ba77feacd329.PNG)
@@ -63,7 +65,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 ![ros_class_report](https://user-images.githubusercontent.com/94148420/163693201-a757479c-6a67-43cf-9200-fc80ab211ced.PNG)
 
-#### SMOTE Model
+#### <ins>SMOTE Model</ins>
 * Balanced Accuracy Score = 66.2%
 
 ![SMOTE_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693249-7e40fc64-7f1d-447c-b8a8-4338970f6079.PNG)
@@ -75,7 +77,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 
 ### Undersampling Review
-#### ClusterCentoids Model
+#### <ins>ClusterCentoids Model</ins>
 * Balanced Accuracy Score = 54.4%
 
 ![ClusCent_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693330-da6af9be-7663-44e5-9aa4-758f72a66496.PNG)
@@ -87,7 +89,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 
 ### Combination (Over and Under) Sampling Review
-#### SMOTEENN Model
+#### <ins>SMOTEENN Model</ins>
 * Balanced Accuracy Score = 68.8%
 
 ![EENN_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693424-9d997200-47fd-4d78-a315-ccf56ebe4a74.PNG)
@@ -99,7 +101,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 
 ### Ensemble Classifiers Review
-#### BalancedRandomForestClassifier Model
+#### <ins>BalancedRandomForestClassifier Model</ins>
 * Balanced Accuracy Score = 78.8%
 
 ![BRFC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693510-be9d9ded-3d9f-4117-83f9-c0893e5a0bee.PNG)
@@ -109,7 +111,7 @@ The **performance** of a machine learning algorithm can be assessed by the model
 
 ![BRFC_class_report](https://user-images.githubusercontent.com/94148420/163693550-9ed15329-ca32-4b75-8949-f33579eb4b45.PNG)
 
-#### EasyEnsembleClassifier Model
+#### <ins>EasyEnsembleClassifier Model</ins>
 * Balanced Accuracy Score = 93.2%
 
 ![EEC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693601-e8a05ba4-0142-4a16-bfe0-6832662e4a7a.PNG)
