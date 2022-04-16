@@ -11,7 +11,7 @@
 * credit_risk_ensemble.ipynb
 
 #### Data:
-* 
+* https://github.com/1on1pt/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv
 
 #### Software/Data Tools:
 
