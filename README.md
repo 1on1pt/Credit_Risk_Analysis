@@ -62,6 +62,11 @@ Class imbalance refers to a situation in which the existing classes in a dataset
 
 ![ros_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693170-e76219e9-0e06-4d9e-8d2b-ba77feacd329.PNG)
 
+**Confusion Matrix**
+
+![ros_cm](https://user-images.githubusercontent.com/94148420/163695916-8d35cb6d-f254-4f93-97f1-baca4a7f8ed3.PNG)
+
+
 * Precision Score = 1%
 * Recall Score = 71%
 
@@ -71,6 +76,11 @@ Class imbalance refers to a situation in which the existing classes in a dataset
 * Balanced Accuracy Score = 66.2%
 
 ![SMOTE_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693249-7e40fc64-7f1d-447c-b8a8-4338970f6079.PNG)
+
+**Confusion Matrix**
+
+![SMOTE_cm](https://user-images.githubusercontent.com/94148420/163695948-f3ca0340-bf0b-46ac-b211-0adc6e897adb.PNG)
+
 
 * Precision Score = 1%
 * Recall Score = 63%
@@ -86,6 +96,11 @@ Undersampling is another technique to address class imbalance. Undersampling tak
 
 ![ClusCent_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693330-da6af9be-7663-44e5-9aa4-758f72a66496.PNG)
 
+**Confusion Matrix**
+
+![ClusCent_cm](https://user-images.githubusercontent.com/94148420/163695971-0890a4e1-1bf3-49a2-b055-86c8914c0da9.PNG)
+
+
 * Precision Score = 1%
 * Recall Score = 69%
 
@@ -99,6 +114,11 @@ Oversampling and undersampling each have their challenges.  One way to address t
 * Balanced Accuracy Score = 68.8%
 
 ![EENN_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693424-9d997200-47fd-4d78-a315-ccf56ebe4a74.PNG)
+
+**Confusion Matrix**
+
+![EENN_cm](https://user-images.githubusercontent.com/94148420/163696001-14287fa4-5fbd-49fe-9556-44018ca8f13b.PNG)
+
 
 * Precision Score = 1%
 * Recall Score = 80%
@@ -114,6 +134,11 @@ Ensemble learning is the process of combining multiple models, like decision tre
 
 ![BRFC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693510-be9d9ded-3d9f-4117-83f9-c0893e5a0bee.PNG)
 
+**Confusion Matrix**
+
+![BRFC_cm](https://user-images.githubusercontent.com/94148420/163696024-ade53bef-64a9-4977-8b53-bd76109c5911.PNG)
+
+
 * Precision Score = 3%
 * Recall Score = 70%
 
@@ -123,6 +148,11 @@ Ensemble learning is the process of combining multiple models, like decision tre
 * Balanced Accuracy Score = 93.2%
 
 ![EEC_balanced_accuracy](https://user-images.githubusercontent.com/94148420/163693601-e8a05ba4-0142-4a16-bfe0-6832662e4a7a.PNG)
+
+**Confusion Matrix**
+
+![EEC_cm](https://user-images.githubusercontent.com/94148420/163696052-72da46b8-7da3-4a43-8648-7a99e17f0b0c.PNG)
+
 
 * Precision Score = 9%
 * Recall Score = 92%
