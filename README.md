@@ -136,7 +136,7 @@ The top performing machine learning model and the recommended algorithm for this
 * Precision Score = 9%
 * Recall Score = 92%
 
-This model would have to be assessed as how it performs against "industry accepted norms" for credit risk assessment.  The greatest concern with this model is it's low F1 score of 16% for high risk.
+This model would have to be assessed as how it performs against "industry accepted norms" for credit risk assessment.  The greatest concern with this model is it's low F1 score of 16% for high risk.  The F1 score becomes important when the classes are imbalanced and there is a serious downside to predicting false negatives.
 
 ### Ranking of Models in Descending Order:
 1. **EasyEnsembleClassifier Model**
