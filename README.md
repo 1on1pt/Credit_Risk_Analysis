@@ -55,6 +55,8 @@ The **performance** of a machine learning algorithm can be assessed by the model
 The following is a performance review of the six machine learning algorithm models that were used to predict credit risk.
 
 ### Oversampling Review
+Class imbalance refers to a situation in which the existing classes in a dataset aren't equally represented.  Oversampling is a strategy that is used if one class has too few instances in the training set and more instances from that class are chosen for training until it's larger.
+
 #### <ins>RandomOverSampler Model</ins>
 * Balanced Accuracy Score = 65.7%
 
@@ -77,6 +79,8 @@ The following is a performance review of the six machine learning algorithm mode
 
 
 ### Undersampling Review
+Undersampling is another technique to address class imbalance. Undersampling takes the opposite approach of oversampling and thus will use the strategy of decreasing the size of the majority class.
+
 #### <ins>ClusterCentoids Model</ins>
 * Balanced Accuracy Score = 54.4%
 
@@ -89,6 +93,8 @@ The following is a performance review of the six machine learning algorithm mode
 
 
 ### Combination (Over and Under) Sampling Review
+Oversampling and undersampling each have their challenges.  One way to address these challenges is to use a combination sampling strategy that incorporates both over and under sampling.
+
 #### <ins>SMOTEENN Model</ins>
 * Balanced Accuracy Score = 68.8%
 
@@ -101,6 +107,8 @@ The following is a performance review of the six machine learning algorithm mode
 
 
 ### Ensemble Classifiers Review
+Ensemble learning is the process of combining multiple models, like decision tree algorithms, to help improve the accuracy and robustness, as well as decrease variance of the model, and therefore increase the overall performance of the model.
+
 #### <ins>BalancedRandomForestClassifier Model</ins>
 * Balanced Accuracy Score = 78.8%
 
@@ -122,6 +130,48 @@ The following is a performance review of the six machine learning algorithm mode
 ![EEC_class_report](https://user-images.githubusercontent.com/94148420/163693620-64d21083-c810-4bd2-8826-f1424b179a61.PNG)
 
 
-
 ## Summary
+The top performing machine learning model and the recommended algorithm for this dataset is the **EasyEnsembleClassifier Model** for predicting *high risk candidates* with the following results:
+* Balanced Accuracy Score = 93.2%
+* Precision Score = 9%
+* Recall Score = 92%
+
+This model would have to be assessed as how it performs against "industry accepted norms" for credit risk assessment.  The greatest concern with this model is it's low F1 score of 16% for high risk.
+
+### Ranking of Models in Descending Order:
+1. **EasyEnsembleClassifier Model**
+    * Balanced Accuracy Score = **93.2%**
+    * Precision Score = 9%
+    * Recall Score = 92%
+
+2. **BalancedRandomForestClassifier Model**
+    * Balanced Accuracy Score = **78.8%**
+    * Precision Score = 9%
+    * Recall Score = 92%
+
+3. **SMOTEENN Model**
+    * Balanced Accuracy Score = **68.8%**
+    * Precision Score = 1%
+    * Recall Score = 80%
+
+4. **SMOTE Model**
+    * Balanced Accuracy Score = **66.2%**
+    * Precision Score = 1%
+    * Recall Score = 63%
+
+5. **RandomOverSampler Model**
+    * Balanced Accuracy Score = **65.7%**
+    * Precision Score = 1%
+    * Recall Score = 71%
+
+6. **ClusterCentoids Model**
+    * Balanced Accuracy Score = **54.4%**
+    * Precision Score = 1%
+    * Recall Score = 69%
+
+
+
+
+
+
 
