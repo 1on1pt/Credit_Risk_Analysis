@@ -199,7 +199,11 @@ This model would have to be assessed as how it performs against "industry accept
     * Precision Score = 1%
     * Recall Score = 69%
 
+_________________________________________________________
 
+### Contact:
+
+#### E-mail:  jbeauchamppt@gmail.com
 
 
 
